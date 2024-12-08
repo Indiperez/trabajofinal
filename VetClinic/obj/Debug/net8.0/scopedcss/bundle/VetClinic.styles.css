@@ -1,0 +1,109 @@
+/* _content/VetClinic/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* General Link Styles */
+a[b-d8j2oehwep] {
+    color: #0077cc;
+    text-decoration: none; /* Añadir para evitar subrayado en los enlaces */
+}
+
+    a:hover[b-d8j2oehwep], a:focus[b-d8j2oehwep] {
+        color: #005fa3; /* Color de enlace al pasar el ratón */
+        text-decoration: underline;
+    }
+
+/* Navbar */
+.navbar-brand[b-d8j2oehwep] {
+    white-space: normal;
+    text-align: center;
+    word-break: break-word; /* Mejor uso de word-break */
+}
+
+/* Button Styles */
+.btn-primary[b-d8j2oehwep] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+    transition: background-color 0.3s ease; /* Transición para suavizar cambios de color */
+}
+
+    .btn-primary:hover[b-d8j2oehwep], .btn-primary:focus[b-d8j2oehwep] {
+        background-color: #1861ac; /* Colores consistentes en hover/focus */
+        border-color: #0f4f8f;
+    }
+
+/* Navbar Pills */
+.nav-pills .nav-link.active[b-d8j2oehwep], .nav-pills .show > .nav-link[b-d8j2oehwep] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link[b-d8j2oehwep] {
+    border-radius: 0.375rem; /* Borde redondeado más suave */
+}
+
+/* Border Styling */
+.border-top[b-d8j2oehwep] {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom[b-d8j2oehwep] {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Box Shadow */
+.box-shadow[b-d8j2oehwep] {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1); /* Ajuste de sombra más sutil */
+}
+
+/* Button Styles - Accept Policy */
+button.accept-policy[b-d8j2oehwep] {
+    font-size: 1rem;
+    line-height: 1.5; /* Mejor espaciado */
+    padding: 0.5rem 1rem;
+    background-color: #0077cc;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+    button.accept-policy:hover[b-d8j2oehwep] {
+        background-color: #005fa3; /* Hover para el botón */
+    }
+
+/* Footer */
+.footer[b-d8j2oehwep] {
+    position: relative; /* Cambiado a 'relative' para mejorar el posicionamiento */
+    bottom: 0;
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center; /* Centrado del texto en el pie */
+    background-color: #f8f9fa; /* Fondo ligero para el pie */
+    line-height: 1.5;
+    color: #6c757d;
+}
+
+    .footer a[b-d8j2oehwep] {
+        color: #0077cc;
+        text-decoration: none;
+    }
+
+        .footer a:hover[b-d8j2oehwep] {
+            color: #005fa3;
+        }
+
+/* Container Padding */
+.container[b-d8j2oehwep] {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Make Footer Sticky at the bottom */
+body[b-d8j2oehwep] {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main[b-d8j2oehwep] {
+    flex-grow: 1;
+}

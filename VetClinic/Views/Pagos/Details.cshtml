@@ -1,0 +1,48 @@
+﻿@model VetClinic.Models.Pago
+
+@{
+    ViewData["Title"] = "Detalles del Pago";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center">@ViewData["Title"]</h1>
+    <hr />
+
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h4 class="mb-3">Detalles del Pago</h4>
+            <dl class="row">
+                <!-- Fecha de Pago -->
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.FechaPago)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.FechaPago)
+                </dd>
+
+                <!-- Monto -->
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.Monto)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Monto)
+                </dd>
+
+                <!-- Cita -->
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.IdCitaNavigation)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.IdCitaNavigation.IdCita)
+                </dd>
+            </dl>
+
+            <!-- Botones de acción -->
+            <div class="text-center mt-4">
+                <a asp-action="Edit" asp-route-id="@Model?.IdPago" class="btn btn-warning btn-sm">Editar</a>
+                <a asp-action="Index" class="btn btn-secondary btn-sm">Volver al Listado</a>
+            </div>
+        </div>
+    </div>
+</div>
+

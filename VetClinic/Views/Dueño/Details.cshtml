@@ -1,0 +1,68 @@
+﻿@model VetClinic.Models.Dueño
+
+@{
+    ViewData["Title"] = "Detalles del Dueño";
+}
+
+<h1 class="text-center mt-4 mb-5">@ViewData["Title"]</h1>
+
+<div class="container">
+    <div class="card shadow-lg">
+        <div class="card-header bg-info text-white">
+            <h4 class="mb-0">Detalles del Dueño</h4>
+        </div>
+        <div class="card-body">
+            <h5 class="text-center mb-4">Información Completa del Dueño</h5>
+
+            <dl class="row">
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Nombre)
+                </dd>
+
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.Apellido)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Apellido)
+                </dd>
+
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.Telefono)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Telefono)
+                </dd>
+
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.Email)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Email)
+                </dd>
+
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.Direccion)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.Direccion)
+                </dd>
+
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(model => model.FechaRegistro)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(model => model.FechaRegistro)
+                </dd>
+            </dl>
+        </div>
+
+        <div class="card-footer text-center">
+            <a asp-action="Edit" asp-route-id="@Model?.IdDueño" class="btn btn-warning btn-lg">Editar</a>
+            <a asp-action="Index" class="btn btn-secondary btn-lg">Volver a la Lista</a>
+        </div>
+    </div>
+</div>
+

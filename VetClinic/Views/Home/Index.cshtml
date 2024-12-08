@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Tablero de Control";
+}
+
+<h1>Bienvenido al Tablero de Control de VetClinic</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Dueños</h5>
+                <p class="card-text">Gestiona todos los dueños.</p>
+                <a href="@Url.Action("Index", "Dueño")" class="btn btn-primary">Ir a Dueños</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Mascotas</h5>
+                <p class="card-text">Gestiona todas las mascotas.</p>
+                <a href="@Url.Action("Index", "Mascotas")" class="btn btn-primary">Ir a Mascotas</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Citas</h5>
+                <p class="card-text">Gestiona todas las citas.</p>
+                <a href="@Url.Action("Index", "Citas")" class="btn btn-primary">Ir a Citas</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Pagos</h5>
+                <p class="card-text">Gestiona todos los pagos.</p>
+                <a href="@Url.Action("Index", "Pagos")" class="btn btn-primary">Ir a Pagos</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Tratamientos</h5>
+                <p class="card-text">Gestiona todos los tratamientos.</p>
+                <a href="@Url.Action("Index", "Tratamientoes")" class="btn btn-primary">Ir a Tratamientos</a>
+            </div>
+        </div>
+    </div>
+</div>
+

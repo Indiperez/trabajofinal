@@ -1,0 +1,71 @@
+﻿@model VetClinic.Models.Mascota
+
+@{
+    ViewData["Title"] = "Eliminar Mascota";
+}
+
+<h2 class="text-center mt-4 mb-5">@ViewData["Title"]</h2>
+
+<div class="container">
+    <div class="card shadow-sm">
+        <div class="card-header bg-danger text-white">
+            <h4 class="mb-0">Confirmación de Eliminación</h4>
+        </div>
+        <div class="card-body">
+            <h3 class="text-center">¿Está seguro de que desea eliminar esta mascota?</h3>
+
+            <div>
+                <h4>Detalles de la Mascota</h4>
+                <hr />
+                <dl class="row">
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.Nombre)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.Nombre)
+                    </dd>
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.Especie)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.Especie)
+                    </dd>
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.Raza)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.Raza)
+                    </dd>
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.Edad)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.Edad)
+                    </dd>
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.Peso)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.Peso)
+                    </dd>
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.IdDueñoNavigation)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.IdDueñoNavigation.IdDueño)
+                    </dd>
+                </dl>
+            </div>
+
+            <form asp-action="Delete" class="text-center">
+                <input type="hidden" asp-for="IdMascota" />
+                <button type="submit" class="btn btn-danger btn-lg">Eliminar Mascota</button>
+            </form>
+
+            <div class="mt-3 text-center">
+                <a asp-action="Index" class="btn btn-secondary btn-lg">Volver al Listado</a>
+            </div>
+        </div>
+    </div>
+</div>
+

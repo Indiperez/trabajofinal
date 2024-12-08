@@ -1,0 +1,55 @@
+﻿@model VetClinic.Models.Pago
+
+@{
+    ViewData["Title"] = "Eliminar Pago";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center">@ViewData["Title"]</h1>
+    <h3 class="text-center">¿Estás seguro de que deseas eliminar este pago?</h3>
+    <hr />
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h4 class="mb-3">Detalles del Pago</h4>
+            <dl class="row">
+                <!-- Fecha de Pago -->
+                <dt class="col-sm-4">
+                    @Html.DisplayNameFor(model => model.FechaPago)
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.FechaPago)
+                </dd>
+
+                <!-- Monto -->
+                <dt class="col-sm-4">
+                    @Html.DisplayNameFor(model => model.Monto)
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.Monto)
+                </dd>
+
+                <!-- Cita -->
+                <dt class="col-sm-4">
+                    @Html.DisplayNameFor(model => model.IdCitaNavigation)
+                </dt>
+                <dd class="col-sm-8">
+                    @Html.DisplayFor(model => model.IdCitaNavigation.IdCita)
+                </dd>
+            </dl>
+
+            <!-- Formulario de eliminación -->
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="IdPago" />
+                <div class="form-group text-center">
+                    <input type="submit" value="Eliminar" class="btn btn-danger btn-lg" />
+                </div>
+            </form>
+
+            <!-- Volver al Listado -->
+            <div class="text-center mt-3">
+                <a asp-action="Index" class="btn btn-secondary btn-sm">Volver al Listado</a>
+            </div>
+        </div>
+    </div>
+</div>

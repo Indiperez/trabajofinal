@@ -1,0 +1,17 @@
+C:\Users\gianr\source\repos\VetClinic.Infrastructure\bin\Debug\net8.0\VetClinic.Infrastructure.deps.json
+C:\Users\gianr\source\repos\VetClinic.Infrastructure\bin\Debug\net8.0\VetClinic.Infrastructure.dll
+C:\Users\gianr\source\repos\VetClinic.Infrastructure\bin\Debug\net8.0\VetClinic.Infrastructure.pdb
+C:\Users\gianr\source\repos\VetClinic.Infrastructure\bin\Debug\net8.0\VetClinic.Application.dll
+C:\Users\gianr\source\repos\VetClinic.Infrastructure\bin\Debug\net8.0\VetClinic.Domain.dll
+C:\Users\gianr\source\repos\VetClinic.Infrastructure\bin\Debug\net8.0\VetClinic.Application.pdb
+C:\Users\gianr\source\repos\VetClinic.Infrastructure\bin\Debug\net8.0\VetClinic.Domain.pdb
+C:\Users\gianr\source\repos\VetClinic.Infrastructure\obj\Debug\net8.0\VetClinic.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\gianr\source\repos\VetClinic.Infrastructure\obj\Debug\net8.0\VetClinic.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gianr\source\repos\VetClinic.Infrastructure\obj\Debug\net8.0\VetClinic.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\gianr\source\repos\VetClinic.Infrastructure\obj\Debug\net8.0\VetClinic.Infrastructure.AssemblyInfo.cs
+C:\Users\gianr\source\repos\VetClinic.Infrastructure\obj\Debug\net8.0\VetClinic.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\gianr\source\repos\VetClinic.Infrastructure\obj\Debug\net8.0\VetClini.AE0ABEC4.Up2Date
+C:\Users\gianr\source\repos\VetClinic.Infrastructure\obj\Debug\net8.0\VetClinic.Infrastructure.dll
+C:\Users\gianr\source\repos\VetClinic.Infrastructure\obj\Debug\net8.0\refint\VetClinic.Infrastructure.dll
+C:\Users\gianr\source\repos\VetClinic.Infrastructure\obj\Debug\net8.0\VetClinic.Infrastructure.pdb
+C:\Users\gianr\source\repos\VetClinic.Infrastructure\obj\Debug\net8.0\ref\VetClinic.Infrastructure.dll

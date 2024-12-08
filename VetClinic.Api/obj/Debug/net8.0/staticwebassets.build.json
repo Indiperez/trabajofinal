@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "k53eDLU/DrUvrvMFSy7M5zb59F+I/ITlZLdKnTiMINk=",
+  "Source": "VetClinic.Api",
+  "BasePath": "_content/VetClinic.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

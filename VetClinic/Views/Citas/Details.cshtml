@@ -1,0 +1,49 @@
+﻿@model VetClinic.Models.Cita
+
+@{
+    ViewData["Title"] = "Detalles de la Cita";
+}
+
+<h1 class="text-center">@ViewData["Title"]</h1>
+
+<div class="container mt-4">
+    <h4 class="text-center">Detalles de la Cita</h4>
+    <hr />
+    <dl class="row">
+        <!-- Fecha y Hora -->
+        <dt class="col-sm-3 font-weight-bold">
+            @Html.DisplayNameFor(model => model.FechaHora)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.FechaHora)
+        </dd>
+
+        <!-- Motivo -->
+        <dt class="col-sm-3 font-weight-bold">
+            @Html.DisplayNameFor(model => model.Motivo)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Motivo)
+        </dd>
+
+        <!-- Mascota -->
+        <dt class="col-sm-3 font-weight-bold">
+            @Html.DisplayNameFor(model => model.IdMascotaNavigation)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.IdMascotaNavigation.Nombre) <!-- Asumiendo que Nombre es el atributo de la mascota -->
+        </dd>
+    </dl>
+
+    <!-- Acciones -->
+    <div class="text-center mt-4">
+        <a asp-action="Edit" asp-route-id="@Model?.IdCita" class="btn btn-warning btn-lg">Editar</a> |
+        <a asp-action="Index" class="btn btn-secondary btn-lg">Volver al Listado</a>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,11 @@
+C:\Users\gianr\source\repos\VetClinic.Domain\bin\Debug\net8.0\VetClinic.Domain.deps.json
+C:\Users\gianr\source\repos\VetClinic.Domain\bin\Debug\net8.0\VetClinic.Domain.dll
+C:\Users\gianr\source\repos\VetClinic.Domain\bin\Debug\net8.0\VetClinic.Domain.pdb
+C:\Users\gianr\source\repos\VetClinic.Domain\obj\Debug\net8.0\VetClinic.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gianr\source\repos\VetClinic.Domain\obj\Debug\net8.0\VetClinic.Domain.AssemblyInfoInputs.cache
+C:\Users\gianr\source\repos\VetClinic.Domain\obj\Debug\net8.0\VetClinic.Domain.AssemblyInfo.cs
+C:\Users\gianr\source\repos\VetClinic.Domain\obj\Debug\net8.0\VetClinic.Domain.csproj.CoreCompileInputs.cache
+C:\Users\gianr\source\repos\VetClinic.Domain\obj\Debug\net8.0\VetClinic.Domain.dll
+C:\Users\gianr\source\repos\VetClinic.Domain\obj\Debug\net8.0\refint\VetClinic.Domain.dll
+C:\Users\gianr\source\repos\VetClinic.Domain\obj\Debug\net8.0\VetClinic.Domain.pdb
+C:\Users\gianr\source\repos\VetClinic.Domain\obj\Debug\net8.0\ref\VetClinic.Domain.dll

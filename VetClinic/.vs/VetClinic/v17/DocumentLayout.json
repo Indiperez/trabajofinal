@@ -1,0 +1,944 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\vetclinic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:vetclinic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\mascotas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\mascotas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gianr\\source\\repos\\VetClinic.Application\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\Controllers\\TratamientoesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\Controllers\\PagosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\Controllers\\MascotasController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\Controllers\\Due\u00F1oController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gianr\\source\\repos\\VetClinic.Domain\\Entities\\Tratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gianr\\source\\repos\\VetClinic.Domain\\Entities\\Pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gianr\\source\\repos\\VetClinic.Domain\\Entities\\Mascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gianr\\source\\repos\\VetClinic.Domain\\Entities\\Due\u00F1o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\Controllers\\CitasController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gianr\\source\\repos\\VetClinic.Domain\\Entities\\Cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\VetClinic.Api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gianr\\source\\repos\\VetClinic.Infrastructure\\VetContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gianr\\source\\repos\\VetClinic.Infrastructure\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gianr\\source\\repos\\VetClinic.Domain\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\tratamientoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\tratamientoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\tratamientoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\tratamientoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\tratamientoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\tratamientoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\tratamientoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\tratamientoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\tratamientoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\tratamientoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\pagos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\pagos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\pagos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\pagos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\pagos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\pagos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\pagos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\pagos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\pagos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\pagos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\mascotas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\mascotas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\mascotas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\mascotas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\mascotas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\mascotas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\due\u00F1o\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\due\u00F1o\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\due\u00F1o\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\due\u00F1o\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\due\u00F1o\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\due\u00F1o\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\citas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\citas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\citas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\citas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\citas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\citas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\citas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\citas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\citas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\citas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\mascotas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\mascotas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\due\u00F1o\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\due\u00F1o\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\controllers\\tratamientoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:controllers\\tratamientoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\controllers\\pagoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:controllers\\pagoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\due\u00F1o\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\due\u00F1o\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\models\\mascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:models\\mascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\controllers\\mascotascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:controllers\\mascotascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\controllers\\due\u00F1ocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:controllers\\due\u00F1ocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|c:\\users\\gianr\\source\\repos\\clinic final\\vetclinic\\models\\vetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BC1695-107F-401E-8043-C971359DBA4D}|VetClinic.csproj|solutionrelative:models\\vetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 291,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VetClinic.csproj",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\VetClinic.csproj",
+              "RelativeDocumentMoniker": "VetClinic.csproj",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\VetClinic.csproj",
+              "RelativeToolTip": "VetClinic.csproj",
+              "ViewState": "AQIAABIAAAAAAAAAAAAwPQAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-08T09:05:00.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\VetClinic.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\..\\VetClinic.Application\\Class1.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\VetClinic.Application\\Class1.cs",
+              "RelativeToolTip": "..\\..\\VetClinic.Application\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:40:28.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:25:35.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAADMAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:25:22.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:23:20.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-08T08:22:56.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Tratamientoes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tratamientoes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Tratamientoes\\Index.cshtml",
+              "RelativeToolTip": "Views\\Tratamientoes\\Index.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvzIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:17:49.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Tratamientoes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tratamientoes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Tratamientoes\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Tratamientoes\\Edit.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAcwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:17:27.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Tratamientoes\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tratamientoes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Tratamientoes\\Details.cshtml",
+              "RelativeToolTip": "Views\\Tratamientoes\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:16:53.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Tratamientoes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tratamientoes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Tratamientoes\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Tratamientoes\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:16:10.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Tratamientoes\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tratamientoes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Tratamientoes\\Create.cshtml",
+              "RelativeToolTip": "Views\\Tratamientoes\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:15:25.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Pagos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pagos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Pagos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Pagos\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:14:50.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Pagos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pagos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Pagos\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Pagos\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:14:24.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Pagos\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pagos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Pagos\\Details.cshtml",
+              "RelativeToolTip": "Views\\Pagos\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:13:55.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Pagos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pagos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Pagos\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Pagos\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:13:25.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Pagos\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pagos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Pagos\\Create.cshtml",
+              "RelativeToolTip": "Views\\Pagos\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:12:19.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Mascotas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Mascotas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Mascotas\\Index.cshtml",
+              "RelativeToolTip": "Views\\Mascotas\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:11:47.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Mascotas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Mascotas\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Mascotas\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Mascotas\\Edit.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAmwB4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:11:09.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Mascotas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Mascotas\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Mascotas\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Mascotas\\Delete.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAiwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:09:39.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Mascotas\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Mascotas\\Details.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Mascotas\\Details.cshtml",
+              "RelativeToolTip": "Views\\Mascotas\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:09:38.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Due\u00F1o\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Due\u00F1o\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Due\u00F1o\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Due\u00F1o\\Edit.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAiwEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:06:57.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Due\u00F1o\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Due\u00F1o\\Details.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Due\u00F1o\\Details.cshtml",
+              "RelativeToolTip": "Views\\Due\u00F1o\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:06:19.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Due\u00F1o\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Due\u00F1o\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Due\u00F1o\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Due\u00F1o\\Delete.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:05:15.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Citas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Citas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Citas\\Index.cshtml",
+              "RelativeToolTip": "Views\\Citas\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:04:10.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Citas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Citas\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Citas\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Citas\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:03:35.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Citas\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Citas\\Details.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Citas\\Details.cshtml",
+              "RelativeToolTip": "Views\\Citas\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:03:07.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Citas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Citas\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Citas\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Citas\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:02:43.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Citas\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Citas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Citas\\Create.cshtml",
+              "RelativeToolTip": "Views\\Citas\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T08:02:07.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Mascotas\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Mascotas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Mascotas\\Create.cshtml",
+              "RelativeToolTip": "Views\\Mascotas\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T07:58:25.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Due\u00F1o\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Due\u00F1o\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Due\u00F1o\\Index.cshtml",
+              "RelativeToolTip": "Views\\Due\u00F1o\\Index.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAADwvzUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T07:40:15.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "TratamientoesController.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Controllers\\TratamientoesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TratamientoesController.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Controllers\\TratamientoesController.cs",
+              "RelativeToolTip": "Controllers\\TratamientoesController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:32:26.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PagosController.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Controllers\\PagosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PagosController.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Controllers\\PagosController.cs",
+              "RelativeToolTip": "Controllers\\PagosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:31:22.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CitasController.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Controllers\\CitasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CitasController.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Controllers\\CitasController.cs",
+              "RelativeToolTip": "Controllers\\CitasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:30:35.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Due\u00F1o\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Due\u00F1o\\Create.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Due\u00F1o\\Create.cshtml",
+              "RelativeToolTip": "Views\\Due\u00F1o\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T07:25:25.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T07:20:15.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Mascota.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Models\\Mascota.cs",
+              "RelativeDocumentMoniker": "Models\\Mascota.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Models\\Mascota.cs",
+              "RelativeToolTip": "Models\\Mascota.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:19:28.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "MascotasController.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Controllers\\MascotasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MascotasController.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Controllers\\MascotasController.cs",
+              "RelativeToolTip": "Controllers\\MascotasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:18:04.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Due\u00F1oController.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Controllers\\Due\u00F1oController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Due\u00F1oController.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Controllers\\Due\u00F1oController.cs",
+              "RelativeToolTip": "Controllers\\Due\u00F1oController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:16:54.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:09:35.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-08T07:08:41.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "VetContext.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Models\\VetContext.cs",
+              "RelativeDocumentMoniker": "Models\\VetContext.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\clinic final\\VetClinic\\Models\\VetContext.cs",
+              "RelativeToolTip": "Models\\VetContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T07:07:02.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TratamientoesController.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\Controllers\\TratamientoesController.cs",
+              "RelativeDocumentMoniker": "..\\..\\VetClinic.Api\\Controllers\\TratamientoesController.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\Controllers\\TratamientoesController.cs",
+              "RelativeToolTip": "..\\..\\VetClinic.Api\\Controllers\\TratamientoesController.cs",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T09:00:15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PagosController.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\Controllers\\PagosController.cs",
+              "RelativeDocumentMoniker": "..\\..\\VetClinic.Api\\Controllers\\PagosController.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\Controllers\\PagosController.cs",
+              "RelativeToolTip": "..\\..\\VetClinic.Api\\Controllers\\PagosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T09:00:05.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MascotasController.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\Controllers\\MascotasController.cs",
+              "RelativeDocumentMoniker": "..\\..\\VetClinic.Api\\Controllers\\MascotasController.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\Controllers\\MascotasController.cs",
+              "RelativeToolTip": "..\\..\\VetClinic.Api\\Controllers\\MascotasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:59:47.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Due\u00F1oController.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\Controllers\\Due\u00F1oController.cs",
+              "RelativeDocumentMoniker": "..\\..\\VetClinic.Api\\Controllers\\Due\u00F1oController.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\Controllers\\Due\u00F1oController.cs",
+              "RelativeToolTip": "..\\..\\VetClinic.Api\\Controllers\\Due\u00F1oController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:58:28.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Tratamiento.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\VetClinic.Domain\\Entities\\Tratamiento.cs",
+              "RelativeDocumentMoniker": "..\\..\\VetClinic.Domain\\Entities\\Tratamiento.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\VetClinic.Domain\\Entities\\Tratamiento.cs",
+              "RelativeToolTip": "..\\..\\VetClinic.Domain\\Entities\\Tratamiento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:57:17.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Pago.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\VetClinic.Domain\\Entities\\Pago.cs",
+              "RelativeDocumentMoniker": "..\\..\\VetClinic.Domain\\Entities\\Pago.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\VetClinic.Domain\\Entities\\Pago.cs",
+              "RelativeToolTip": "..\\..\\VetClinic.Domain\\Entities\\Pago.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:57:08.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Mascota.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\VetClinic.Domain\\Entities\\Mascota.cs",
+              "RelativeDocumentMoniker": "..\\..\\VetClinic.Domain\\Entities\\Mascota.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\VetClinic.Domain\\Entities\\Mascota.cs",
+              "RelativeToolTip": "..\\..\\VetClinic.Domain\\Entities\\Mascota.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:56:55.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Due\u00F1o.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\VetClinic.Domain\\Entities\\Due\u00F1o.cs",
+              "RelativeDocumentMoniker": "..\\..\\VetClinic.Domain\\Entities\\Due\u00F1o.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\VetClinic.Domain\\Entities\\Due\u00F1o.cs",
+              "RelativeToolTip": "..\\..\\VetClinic.Domain\\Entities\\Due\u00F1o.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:56:47.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CitasController.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\Controllers\\CitasController.cs",
+              "RelativeDocumentMoniker": "..\\..\\VetClinic.Api\\Controllers\\CitasController.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\Controllers\\CitasController.cs",
+              "RelativeToolTip": "..\\..\\VetClinic.Api\\Controllers\\CitasController.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAwwAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:53:43.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Cita.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\VetClinic.Domain\\Entities\\Cita.cs",
+              "RelativeDocumentMoniker": "..\\..\\VetClinic.Domain\\Entities\\Cita.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\VetClinic.Domain\\Entities\\Cita.cs",
+              "RelativeToolTip": "..\\..\\VetClinic.Domain\\Entities\\Cita.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:53:01.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VetClinic.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\VetClinic.Api.csproj",
+              "RelativeDocumentMoniker": "..\\..\\VetClinic.Api\\VetClinic.Api.csproj",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\VetClinic.Api.csproj",
+              "RelativeToolTip": "..\\..\\VetClinic.Api\\VetClinic.Api.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-08T08:47:28.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\VetClinic.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\appsettings.json",
+              "RelativeToolTip": "..\\..\\VetClinic.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-08T08:46:46.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\VetClinic.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\VetClinic.Api\\Program.cs",
+              "RelativeToolTip": "..\\..\\VetClinic.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:46:09.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VetContext.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\VetClinic.Infrastructure\\VetContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\VetClinic.Infrastructure\\VetContext.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\VetClinic.Infrastructure\\VetContext.cs",
+              "RelativeToolTip": "..\\..\\VetClinic.Infrastructure\\VetContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:44:23.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\VetClinic.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\..\\VetClinic.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\VetClinic.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "..\\..\\VetClinic.Infrastructure\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:41:06.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\gianr\\source\\repos\\VetClinic.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\..\\VetClinic.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\gianr\\source\\repos\\VetClinic.Domain\\Class1.cs",
+              "RelativeToolTip": "..\\..\\VetClinic.Domain\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:38:49.222Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

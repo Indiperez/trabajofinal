@@ -1,0 +1,52 @@
+﻿@model VetClinic.Models.Pago
+
+@{
+    ViewData["Title"] = "Crear Pago";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center">@ViewData["Title"]</h1>
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h4 class="mb-3">Nuevo Pago</h4>
+            <hr />
+
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <!-- Monto Field -->
+                <div class="form-group">
+                    <label asp-for="Monto" class="control-label">Monto</label>
+                    <input asp-for="Monto" class="form-control" placeholder="Ingrese el monto" />
+                    <span asp-validation-for="Monto" class="text-danger"></span>
+                </div>
+
+                <!-- IdCita Field -->
+                <div class="form-group">
+                    <label asp-for="IdCita" class="control-label">Cita</label>
+                    <select asp-for="IdCita" class="form-control" asp-items="ViewBag.IdCita">
+                        <option value="">Seleccione una Cita</option>
+                    </select>
+                    <span asp-validation-for="IdCita" class="text-danger"></span>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="form-group text-center">
+                    <input type="submit" value="Crear Pago" class="btn btn-success btn-lg" />
+                </div>
+            </form>
+
+            <!-- Back Link -->
+            <div class="text-center mt-3">
+                <a asp-action="Index" class="btn btn-secondary btn-sm">Volver al Listado</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
